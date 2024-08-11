@@ -1,6 +1,6 @@
 
 #Basic Python File For Docking
-
+#Idea(Goal): Creating Container Image for this Code
 num = int(input())
 num1=num
 fact=1
