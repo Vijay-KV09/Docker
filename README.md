@@ -1,0 +1,1 @@
+This repo give basic understanding about the working of docker as a contanarized orchestration for creating and managing container's and contanarized application using some of it's Services like::::Docker Daemon,Dockerfile,Docker Image and Container Image
