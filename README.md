@@ -1,6 +1,6 @@
-**Deploying Python Mini Application Into Docker Conatiners and Managing in Docker Hub**
+**Deploying Python Mini Application Into Docker Containers and Managing in Docker Hub**
 ---
-Steps=>
+**Steps**
 
 1: Create EC2 instance on AWS
 
@@ -22,8 +22,10 @@ Steps=>
 
 10: To Execute the image again just pull the image from the Docker Hub
 
-**After Successful Installing the Docker On EC2**
 ---
+
+**Commands**
+
 Run The Following Command in Order:
 
 1: sudo apt install docker.io  
