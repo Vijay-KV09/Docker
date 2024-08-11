@@ -1,6 +1,7 @@
 **Built and Dockerized Python Factorial App, Deployed to Docker Hub**
 
 Steps=>
+
 1: Create EC2 instance on AWS
 
 2: Using Linux install Docker on the EC2
