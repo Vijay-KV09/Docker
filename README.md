@@ -29,6 +29,32 @@ Run The Following Command in Order:
 1: sudo apt install docker.io  
 
 2: sudo systemctl status docker
+
 3: docker run hello-world
+
 *after this restart the server*
-4: 
+
+4: sudo systemctl status docker
+
+5: sudo usermod -aG docker ubuntu
+
+6: git clone https://github.com/Vijay-KV09/Docker
+
+7: docker build -t docker1 .
+
+8: docker run -e N=15 docker1
+
+9: docker images
+
+10: docker login 
+
+*Authenticate docker hub using username and password*
+
+---
+*Create a repo for storing the docker image in docker hub*
+
+11: docker tag docker1 <dockerhub-username>/<repository-name>:<tag>
+
+12: docker push <dockerhub-username>/<repository-name>:<tag>
+
+**Hence You Deployed Your First Docker Image In Your Registry**
