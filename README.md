@@ -30,10 +30,14 @@ Steps=>
 ```bash
 git clone https://github.com/Vijay-KV09/Docker  
 ```
----
 *Check Whether The Dockerfile and Python File is seen in Docker Images*
 ![ss2](https://github.com/Vijay-KV09/Docker/blob/master/Screenshot%20(29).png)
 *After Successfully Image is Seen in Docker Images build the Docker Image* 
 ```bash
 docker build -t docker1 .
 ```
+*now run the image after successfully building it*
+```bash
+docker run -e N=15 docker1
+```
+log into the docker hub to push the docker image into respective repo
