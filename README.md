@@ -32,7 +32,7 @@ Run The Following Command in Order:
 
 3: docker run hello-world
 
-*after this restart the server*
+*After this "Restart" the server*
 
 4: sudo systemctl status docker
 
@@ -48,13 +48,10 @@ Run The Following Command in Order:
 
 10: docker login 
 
-*Authenticate docker hub using username and password*
+*Authenticate docker hub using username and password and Create a repo for storing the docker image in docker hub*
 
----
-*Create a repo for storing the docker image in docker hub*
+11: docker tag docker1 dockerhub-username/repository-name:tag
 
-11: docker tag docker1 <dockerhub-username>/<repository-name>:<tag>
-
-12: docker push <dockerhub-username>/<repository-name>:<tag>
+12: docker push dockerhub-username/repository-name:tag
 
 **Hence You Deployed Your First Docker Image In Your Registry**
