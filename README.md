@@ -1,5 +1,5 @@
-**Deplpoying Python Mini Application Into Docker Conatiners and Managing in Docker Hub**
-
+**Deploying Python Mini Application Into Docker Conatiners and Managing in Docker Hub**
+---
 Steps=>
 
 1: Create EC2 instance on AWS
