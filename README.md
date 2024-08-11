@@ -24,7 +24,7 @@ Steps=>
 
 **After Successful Installing the Docker On EC2**
 ---
-Check Whether Docker is Working Properly by Running hello-world
+*Check Whether Docker is Working Properly by Running hello-world*
 ![ss1](https://github.com/Vijay-KV09/Docker/blob/master/Screenshot%20(35).png)
 *Clone The Respo from GitHub Where Dockerfile and Python App is Deployed*
 ```bash
@@ -33,7 +33,7 @@ git clone https://github.com/Vijay-KV09/Docker
 ---
 *Check Whether The Dockerfile and Python File is seen in Docker Images*
 ![ss2](https://github.com/Vijay-KV09/Docker/blob/master/Screenshot%20(29).png)
-After Successfully Image is Seen in Docker Images build the Docker Image 
+*After Successfully Image is Seen in Docker Images build the Docker Image* 
 ```bash
 docker build -t docker1 .
 ```
