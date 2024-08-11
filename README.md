@@ -25,3 +25,5 @@ Steps=>
 **After Successful Installing the Docker On EC2**
 ---
 Check Whether Docker is Working Properly by Running hello-world
+![ss1](https://github.com/Vijay-KV09/Docker/blob/master/Screenshot%20(35).png)  
+
