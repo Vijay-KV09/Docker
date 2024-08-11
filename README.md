@@ -23,6 +23,5 @@ Steps=>
 10: To Execute the image again just pull the image from the Docker Hub
 
 **After Successful Installing the Docker On EC2**
-
-```bash
-echo "Check Whether Docker is Working Properly by Running hello-world"
+---
+Check Whether Docker is Working Properly by Running hello-world
