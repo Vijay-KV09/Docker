@@ -1,4 +1,4 @@
-**Built and Dockerized Python Factorial App, Deployed to Docker Hub**
+**Deplpoying Python Mini Application Into Docker Conatiners and Managing in Docker Hub**
 
 Steps=>
 
@@ -32,7 +32,7 @@ Run The Following Command in Order:
 
 3: docker run hello-world
 
-*After this "Restart" the server*
+*"After this {Restart} the server"*
 
 4: sudo systemctl status docker
 
@@ -48,7 +48,7 @@ Run The Following Command in Order:
 
 10: docker login 
 
-*Authenticate docker hub using username and password and Create a repo for storing the docker image in docker hub*
+*"Authenticate docker hub using username and password and Create a repo for storing the docker image in docker hub"*
 
 11: docker tag docker1 dockerhub-username/repository-name:tag
 
