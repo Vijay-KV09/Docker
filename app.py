@@ -1,7 +1,9 @@
 
 #Basic Python File For Docking
 #Idea(Goal): Creating Container Image for this Code
-num = int(input())
+import os
+
+num = int(os.getenv("N","1"))
 num1=num
 fact=1
 while num >= 1:
